@@ -1,0 +1,77 @@
+task_000:
+    cores_required: 6
+    execution_time: 313
+task_001:
+    cores_required: 6
+    execution_time: 871
+task_002:
+    cores_required: 5
+    execution_time: 981
+task_003:
+    cores_required: 1
+    execution_time: 987
+    parent_tasks: "task_000, task_002"
+task_004:
+    cores_required: 5
+    execution_time: 535
+    parent_tasks: "task_000, task_001, task_003"
+task_005:
+    cores_required: 7
+    execution_time: 415
+    parent_tasks: "task_000, task_003, task_002, task_001, task_004"
+task_006:
+    cores_required: 5
+    execution_time: 274
+    parent_tasks: "task_002, task_001"
+task_007:
+    cores_required: 4
+    execution_time: 627
+    parent_tasks: "task_003, task_000"
+task_008:
+    cores_required: 6
+    execution_time: 569
+    parent_tasks: "task_005, task_004, task_000, task_001, task_007, task_002, task_003"
+task_009:
+    cores_required: 6
+    execution_time: 161
+    parent_tasks: "task_001"
+task_010:
+    cores_required: 2
+    execution_time: 188
+    parent_tasks: "task_008, task_006, task_000"
+task_011:
+    cores_required: 6
+    execution_time: 698
+    parent_tasks: "task_006, task_007"
+task_012:
+    cores_required: 4
+    execution_time: 800
+    parent_tasks: "task_006, task_010"
+task_013:
+    cores_required: 1
+    execution_time: 471
+    parent_tasks: "task_010, task_002, task_005, task_001, task_003, task_009, task_011"
+task_014:
+    cores_required: 7
+    execution_time: 483
+    parent_tasks: "task_000, task_004, task_011, task_005"
+task_015:
+    cores_required: 5
+    execution_time: 292
+    parent_tasks: "task_005"
+task_016:
+    cores_required: 1
+    execution_time: 384
+    parent_tasks: "task_003, task_013, task_001"
+task_017:
+    cores_required: 7
+    execution_time: 412
+    parent_tasks: "task_006, task_007, task_013"
+task_018:
+    cores_required: 6
+    execution_time: 220
+    parent_tasks: "task_005, task_002, task_003, task_008, task_006, task_012, task_015, task_014, task_016"
+task_019:
+    cores_required: 6
+    execution_time: 380
+    parent_tasks: "task_012, task_007, task_005, task_008"

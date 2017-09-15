@@ -1,0 +1,30 @@
+task_000:
+    cores_required: 7
+    execution_time: 883
+task_001:
+    cores_required: 5
+    execution_time: 508
+task_002:
+    cores_required: 3
+    execution_time: 182
+task_003:
+    cores_required: 5
+    execution_time: 758
+task_004:
+    cores_required: 4
+    execution_time: 708
+task_005:
+    cores_required: 4
+    execution_time: 325
+task_006:
+    cores_required: 3
+    execution_time: 116
+task_007:
+    cores_required: 5
+    execution_time: 504
+task_008:
+    cores_required: 4
+    execution_time: 640
+task_009:
+    cores_required: 1
+    execution_time: 992

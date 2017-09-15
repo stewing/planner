@@ -1,0 +1,36 @@
+task_000:
+    cores_required: 1
+    execution_time: 662
+task_001:
+    cores_required: 2
+    execution_time: 999
+task_002:
+    cores_required: 6
+    execution_time: 930
+    parent_tasks: "task_000"
+task_003:
+    cores_required: 4
+    execution_time: 531
+task_004:
+    cores_required: 6
+    execution_time: 567
+task_005:
+    cores_required: 5
+    execution_time: 570
+    parent_tasks: "task_002"
+task_006:
+    cores_required: 8
+    execution_time: 333
+    parent_tasks: "task_004, task_005, task_000, task_002"
+task_007:
+    cores_required: 1
+    execution_time: 300
+    parent_tasks: "task_001"
+task_008:
+    cores_required: 5
+    execution_time: 983
+    parent_tasks: "task_004"
+task_009:
+    cores_required: 5
+    execution_time: 937
+    parent_tasks: "task_000, task_002, task_004, task_007, task_003, task_001, task_008"
